@@ -1,0 +1,14 @@
+{
+  "name": "wp",
+  "version": "1.0.0",
+  "description": "weather predict",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Femi Sathar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

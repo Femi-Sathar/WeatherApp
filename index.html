@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>WeatherAPP</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:black|Ubuntu" rel="stylesheet" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section id="hero">
+    <div class="container">
+    <h1>Check Weather in your city</h1>
+    <form  action="/" method="post">
+      <div class="searchwrapper">
+        <div class="searchbox">
+          <div class="row">
+            <div class="col-md-5"><input type="text" class="form-control" name = "cityName" placeholder="Enter City Name..."></div>
+            <div class="col-md-5">
+              <select class="form-control Category" name="tempunit">
+                <option value="Celsius" selected>Celsius</option>
+                <option value="Kelvin">Kelvin</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+              </select>
+            </div>
+            <div class="col-md-1"><input type="submit" name="submit" class="btn btn-dark" class="form-control" value="Check!"></div>
+          </div>
+        </div>
+      </div>
+    </form>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p class="text-center">Made with ❤️ by <a href="https://www.linkedin.com/in/femi-sathar-b70a88146">Femi</a> using the <a href="https://openweathermap.org/api">OpenWeather API. </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"><script>
+</body>
+</html>
